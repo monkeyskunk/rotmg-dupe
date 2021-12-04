@@ -20,7 +20,7 @@ print("Socket bound")
   
 # put the socket into listening mode 
 s.listen(5)      
-print("Socket lisltening")        
+print("Socket listening")        
 
 import xml.etree.ElementTree as ET
 a = ET.parse("packets.xml")
